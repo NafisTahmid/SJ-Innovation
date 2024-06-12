@@ -7,9 +7,7 @@ body {
   font-variation-settings:
     "wdth" 100,
     "YTLC" 500;
-
-    background-color: #00101F;
-  
+  background-color: #19191B;
 }
 
 .navbar {
@@ -97,4 +95,142 @@ body {
     border-radius: 8px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 
+}
+
+/* .container {
+
+    height: 4374px;
+    top: 97px;
+    left: 1634px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.line {
+    display: flex;
+}
+
+.line h1 {
+  
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+
+.line p {
+  
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.66px;
+    color: #FFFFFF;
+}
+
+.line img {
+    width: 967.05px;
+    height: 939px;
+    top: 213.63px;
+    left: 1051px;
+} */
+
+/* Style for the entire container to center it within the viewport */
+.container {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust height as needed */
+}
+
+/* Flexbox settings for the line inside the container */
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Half-width settings to make sure the text and image take equal space */
+.half-width {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Style adjustments for the header text */
+.line h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 84px;
+    color: #FFFFFF;
+    margin: 0 0 20px 0;
+}
+
+/* Style adjustments for the paragraph text */
+.line p {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.66px;
+    color: #FFFFFF;
+    margin: 0 0 20px 0;
+}
+
+/* Style adjustments for the images */
+.line img {
+    width: 967.05px;
+    height: 939px;
+   /* Adjust based on design needs */
+   /* Optional: to round the corners of the image */
+}
+
+#services-button {
+    display: flex;
+    align-items: center;
+    width: 204px;
+    height: 58px;
+    top: 820.63px;
+    left: 808px;
+    border-radius: 4px;
+    background-color: #FF5151;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27.28px;
+    padding-left: 30px;
+}
+
+#services-button img {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+#service-we-provide h2{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+
+}
+
+#service-we-provide img {
+    width: 120px;
+    height: 80px;
+}
+
+#service-we-provide .half-width {
+    justify-content: center;
+    align-items: center;
+    text-align:center
 }
