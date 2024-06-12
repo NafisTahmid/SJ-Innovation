@@ -230,7 +230,128 @@ body {
 }
 
 #service-we-provide .half-width {
+    min-width: 320px;
+    min-height: 350px;
+    border-radius: 25px;
+    padding-top: 80px;
     justify-content: center;
     align-items: center;
-    text-align:center
+    text-align:center;
+}
+
+#service-we-provide .half-width:hover {
+    border: 0.5px solid #FFFFFF;
+}
+
+#service-we-provide .half-width h3, p {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+#service-we-provide .half-width p {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+#awesome-portfolio h2 {
+    /* font: Rubik */
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 68.73px;
+    color: #FFFFFF;
+}
+
+#awesome-portfolio .navbar {
+  
+    width: 100%;
+    height: 10vh;
+    /* margin: auto; */
+    /* padding-left: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+  
+}
+
+#awesome-portfolio .navbar a {
+    text-align: left;
+    
+}
+
+#awesome-portfolio .navbar ul li {
+    width: 80px;
+    height: 50px;
+    border-radius: 1px;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 5px; */
+}
+
+#awesome-portfolio .navbar ul li:hover {
+    background-color: #FF5151;
+}
+
+#portfolio-image {
+    width: 555px;
+    height: 446px;
+    top: 1982.63px;
+    left: 805px;
+    border-radius: 12px;
+}
+
+#conceptZilla {
+    /* font: Nunito Sans */
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49.1px;
+    letter-spacing: -0.75px;
+    color: #FFFFFF;
+
+}
+
+#awesome-portfolio p {
+    /* Font: Nunito Sans */
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+#awesome-portfolio button {
+    margin-top: 5px;
+    width: 167px;
+    height: 49px;
+    top: 2686.63px;
+    left: 805px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid #FFFFFF;
+}
+
+#portfolio-image-new {
+    width: 282px;
+    height: 212.34px;
+    top: 1982.63px;
+    left: 1723px;
+    border-radius: 12px;
+}
+
+.line-new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px 0;
+}
+
+.half-width-new {
+    display: flex;
+}
+
+.line-new h4, p {
+    color: #FFFFFF;
 }
