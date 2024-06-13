@@ -156,9 +156,9 @@ body {
 
 /* Half-width settings to make sure the text and image take equal space */
 .half-width {
-    flex: 1;
+    /* flex: 1; */
     padding: 20px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 /* Style adjustments for the header text */
@@ -241,6 +241,7 @@ body {
 
 #service-we-provide .half-width:hover {
     border: 0.5px solid #FFFFFF;
+    cursor: pointer;
 }
 
 #service-we-provide .half-width h3, p {
@@ -354,4 +355,129 @@ body {
 
 .line-new h4, p {
     color: #FFFFFF;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38.19px;
+    letter-spacing: -0.75px;
+    margin-right: 120px;
+}
+
+.line-new small {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+
+#client h2 {
+    /* font: Rubik */
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 71.1px;
+    color: #FFFFFF;
+}
+
+#testimonial-image {
+    width: 519px;
+    height: 364px;
+    top: 3178.63px;
+    left: 672px;
+    border-radius: 12px;
+}
+
+#star-image {
+    width: 29px;
+    height: 29px;
+    top: 3215.63px;
+    left: 1099px;
+}
+
+#great-design-title {
+    /* Typography: Nunito Sans */
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38.19px;
+    letter-spacing: -0.75px;
+    color: #FFFFFF;
+}
+
+#client p {
+    /* font: nunito sans */
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+#line-one {
+    /* width: 587px; */
+    /* height: 396px; */
+    top: 3150.63px;
+    left: 806px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    background-color: #443f3f;
+    padding: 20px;
+}
+
+#profile-one {
+    width: 53px;
+    height: 53px;
+    top: 3439.63px;
+    left: 1102px;
+}
+
+#client h5 {
+    /* font: nunito sans */
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24.55px;
+    letter-spacing: -0.75px;
+    color: #FFFFFF;
+}
+
+.info-text {
+    /* font: Nunito sans */
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    padding-bottom: 10px;
+}
+
+.line-two {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+#second-client-text {
+    /* font: nunito sans */
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.border-two {
+    width: 282px;
+    height: 520px;
+    top: 3150.63px;
+    left: 1417px;
+    border-radius: 12px;
+    /* padding: 10px; */
+    background-color: #443f3f;
+    margin-left: 50px;
+}
+
+#great-design-title-two {
+    /* Typography: Nunito Sans */
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38.19px;
+    letter-spacing: -0.75px;
+    color: #FFFFFF;
+    text-align: center;
 }
