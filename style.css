@@ -483,3 +483,88 @@ body {
     color: #FFFFFF;
     text-align: center;
 }
+
+#img-logo {
+    width: 40px;
+    height: 40px;
+    top: 3730.63px;
+    left: 806px;
+}
+
+#last-section p {
+    /* font: Nunito Sans */
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24.55px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#address-description {
+    font-weight: 400;
+}
+
+#footer-icon {
+    width: 36px;
+    height: 36px;
+    top: 3964.63px;
+    left: 806px;
+}
+
+#last-section h2 {
+    /* font: Rubik */
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56.88px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#last-section {
+    width: 1442px;
+    height: 482px;
+    top: 3650.63px;
+    left: 684px;
+    margin-top: 20px;
+    background-color: rgba(30, 30, 32, 0.5);
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#input-name {
+    width: 595px;
+    height: 23.5px;
+    top: 3810.63px;
+    left: 1277px;
+}
+
+#input-email-contact {
+    width: 283px;
+    height: 23.5px;
+    top: 3862.63px;
+    left: 1277px;
+    
+}
+
+.last-line {
+    display: flex;
+}
+
+.last-half-width {
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#message {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    width: 403.5px;
+    height: 73.5px;
+    top: 3914.63px;
+    left: 1277px;
+}
